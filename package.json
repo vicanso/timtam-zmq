@@ -1,0 +1,23 @@
+{
+	"name": "timtam-zmq",
+	"description": "timtam zmq transport",
+	"version": "0.0.1",
+	"author": {
+		"name": "vicanso 小墨鱼",
+		"email": "vicansocanbico@gmail.com"
+	},
+	"keywords": [
+		"timtam",
+		"zmq"
+	],
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/vicanso/timtam-zmq.git"
+	},
+	"dependencies": {
+		"zmq": "^2.13.0"
+	},
+	"readmeFilename": "README.md",
+	"readme": "timtam zmq transport"
+}
