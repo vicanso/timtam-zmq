@@ -10,7 +10,7 @@ var socket;
  */
 function init(port, host) {
 	host = host || '0.0.0.0';
-	if (port) {
+	if (!port) {
 		throw new Error('port is undefined');
 	}
 	if (socket) {
